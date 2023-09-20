@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Talk Tech and Politics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Let's Talk Tech and Politics</a></h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                    <li><a href="politics.html">Politics</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<section class="contact">
+    <h2>Contact Information</h2>
+    <ul>
+        <li><strong>Name:</strong> Qasim Ali Khan</li>
+        <li><strong>Location:</strong> Mississauga, Ontario</li>
+        <li><strong>Phone:</strong> <a href="tel:647-568-1440">647-568-1440</a></li>
+        <li><strong>Email:</strong> <a href="mailto:khanqasimali@hotmail.com">khanqasimali@hotmail.com</a></li>
+    </ul>
+    
+    <!-- Social Media Links -->
+    <div class="social-links">
+        <a href="#" class="social-icon">LinkedIn</a>
+        <!-- Add more social icons as needed -->
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+        <h3>Send me a Message</h3>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Map -->
+    <div class="map">
+        <!-- Embed your map here, e.g., using Google Maps iframe -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23252.385379492044!2d-79.64111659564064!3d43.58904519487539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDQyJzI5LjkiTiA3OcKwMTcnNTIuMiJX!5e0!3m2!1sen!2sus!4v1622741019682!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Confirmation Message -->
+    <div class="confirmation-message" id="confirmation">
+        <p>Thank you for contacting me! I'll get back to you soon.</p>
+    </div>
+</section>
+
