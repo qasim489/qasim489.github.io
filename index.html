@@ -3,45 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Personal Blog</title>
+    <title>Your Tech and Politics Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Your Personal Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tech.html">Tech</a></li>
-                <li><a href="politics.html">Politics</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Your Tech and Politics Blog</a></h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                    <li><a href="politics.html">Politics</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <section class="blog-post">
-            <h2>Article Title 1</h2>
-            <p>Date: September 18, 2023</p>
-            <p>Author: Your Name</p>
-            <p>This is the content of your tech or politics article.</p>
-            <a href="article1.html">Read more about Article Title 1</a>
+    <main class="container">
+        <section class="featured-article">
+            <h2>Featured Tech Article</h2>
+            <article>
+                <img src="featured-tech-article-image.jpg" alt="Featured Tech Article Image">
+                <h3>Article Title</h3>
+                <p class="metadata">Published on September 18, 2023 by Your Name</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+                <a href="article.html">Read more</a>
+            </article>
         </section>
 
-        <section class="blog-post">
-            <h2>Article Title 2</h2>
-            <p>Date: September 19, 2023</p>
-            <p>Author: Your Name</p>
-            <p>This is the content of another tech or politics article.</p>
-            <a href="article2.html">Read more about Article Title 2</a>
+        <section class="featured-article politics">
+            <h2>Featured Politics Article</h2>
+            <article>
+                <img src="featured-politics-article-image.jpg" alt="Featured Politics Article Image">
+                <h3>Article Title</h3>
+                <p class="metadata">Published on September 20, 2023 by Your Name</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+                <a href="article.html">Read more</a>
+            </article>
         </section>
 
-        <!-- Repeat the above section for more articles -->
+        <section class="recent-articles">
+            <h2>Recent Tech Articles</h2>
+            <div class="article-list">
+                <article>
+                    <img src="article1-tech-image.jpg" alt="Article 1 Tech Image">
+                    <h3>Article 1 Title</h3>
+                    <p class="metadata">Published on September 19, 2023 by Your Name</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+                    <a href="article1.html">Read more</a>
+                </article>
+                <!-- Repeat the above structure for more recent tech articles -->
+            </div>
+        </section>
+
+        <section class="recent-articles politics">
+            <h2>Recent Politics Articles</h2>
+            <div class="article-list">
+                <article>
+                    <img src="article1-politics-image.jpg" alt="Article 1 Politics Image">
+                    <h3>Article 1 Title</h3>
+                    <p class="metadata">Published on September 21, 2023 by Your Name</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+                    <a href="article1.html">Read more</a>
+                </article>
+                <!-- Repeat the above structure for more recent politics articles -->
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Your Personal Blog</p>
+        <div class="container">
+            <p>&copy; 2023 Your Tech and Politics Blog</p>
+        </div>
     </footer>
 </body>
 </html>
+
