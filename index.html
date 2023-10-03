@@ -1,44 +1,60 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF - 8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.00">
-	<title> Qasim's Personal Blog</title>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Talk Tech and Politics</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<h1> Qasim's Personal Blog</h1>
-		<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="tech.html">Tech</a></li>
-			<li><a href="politics.html">Politics</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-		</nav>
-	</header>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Let's Talk Tech and Politics</a></h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                    <li><a href="politics.html">Politics</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-	<main>
-		<section class="blog-post">
-			<h2>Article 1</h2>
-			<p>Date: Sept 18, 2023</p>
-			<p>Author: Qasim Khan</p>
-			<p> Content for article 1</p>
-			<a href="article1.html">Read more about Article 1</a>
-		</section>
+    <main class="container">
+        <section class="featured-article">
+            <h2>Featured Tech Article</h2>
+            <article>
+                <img src="article1image.webp" alt="Featured Tech Article Image" width="200" height="150">
+                <h3>Apple Unveils iPhone 15 and Switches to USB-C Charger</h3>
+                <p class="metadata">Published on September 18, 2023 by Qasim Khan</p>
+                <p>The article discusses Apple's recent announcement that its latest product line, the iPhone 15, will adopt USB-C charging ports in compliance with European regulations. As a political analyst and tech enthusiast, let's dissect this development from both perspectives.</p>
+                <p><a href="article1.html">Read more</a></p>
+                <a href="https://www.nytimes.com/2023/09/12/technology/apple-iphone-15-usb-c.html" target="_blank">Original article here</a>
+            </article>
+        </section>
 
-		<section class="blog-post">
-			<h2> Article Title 2</h2>
-			<p>Date Sept 19, 2023</p>
-			<p> Author: Qasim Khan</p>
-			<p> This is the content of another tech or politics article.</p>
-			<a href="article2.html">Read more about Article 2</a>
-		</section>
-	</main>
+        <section class="featured-article politics">
+            <h2>Featured Politics Article</h2>
+            <article>
+                <img src="featured-politics-article-image.jpg" alt="Featured Politics Article Image">
+                <h3>CRTC registration for podcasts and streaming companies draws criticism</h3>
+                <p class="metadata">Published on October 1, 2023 by Qasim Khan</p>
+                <p>Dive into the intricate web of Canadian media regulation as the CRTC's new mandates spark debates on freedom of expression, industry uncertainty, and the future of online content creation.</p>
+                <a href="article2.html">Read more</a>
+                <a href="https://www.cbc.ca/news/business/crtc-registration-online-streaming-1.6984400" target="_blank">Original article here</a>
 
-	<footer>
-		<p>&copy; 2023 Qasim's Personal Blog
-	</footer>
+            </article>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Let's Talk Tech and Politics</p>
+        </div>
+    </footer>
 </body>
 </html>
+
